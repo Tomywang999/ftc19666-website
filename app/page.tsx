@@ -10,28 +10,61 @@ export default async function Home() {
       <Hero images={images} />
       
       <section className="max-w-7xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-3xl font-bold mb-6">Our Programs</h2>
-            <div className="space-y-6">
-              <div className="border-l-4 border-[#800020] pl-4">
-                <h3 className="text-xl font-semibold mb-2">FIRST Tech Challenge (FTC)</h3>
-                <p className="text-gray-600">Middle and high school students design, build, and program robots for head-to-head challenges.</p>
+        <div className="grid lg:grid-cols-[1.2fr,1fr] gap-16 items-center">
+          {/* Programs Description Side */}
+          <div className="order-2 lg:order-1">
+            <h2 className="text-4xl font-bold mb-8">Our Programs</h2>
+            <div className="space-y-8">
+              <div className="border-l-4 border-[#800020] pl-6 py-2 transition-all hover:pl-8">
+                <h3 className="text-2xl font-semibold mb-3">FIRST Tech Challenge (FTC)</h3>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  Team 19666 Forever Knight competes in FIRST Tech Challenge, a robotics program 
+                  where we design, build, and program competition robots while developing 
+                  leadership and engineering skills.
+                </p>
               </div>
-              <div className="border-l-4 border-[#2B4F81] pl-4">
-                <h3 className="text-xl font-semibold mb-2">Depth Lab</h3>
-                <p className="text-gray-600">Advanced robotics research and development focusing on depth sensing and computer vision applications.</p>
+              <div className="border-l-4 border-[#2B4F81] pl-6 py-2 transition-all hover:pl-8">
+                <h3 className="text-2xl font-semibold mb-3">Depth Lab</h3>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  Founded by Team 19666, Depth Lab is an online community platform where FTC teams 
+                  collaborate, share resources, and contribute to open-source robotics projects 
+                  together.
+                </p>
               </div>
             </div>
           </div>
-          
-          <div className="relative h-[400px]">
-            <Image
-              src="https://picsum.photos/800/600"
-              alt="Students working on robots"
-              fill
-              className="object-cover rounded-lg"
-            />
+
+          {/* Logos Side */}
+          <div className="order-1 lg:order-2">
+            <div className="grid grid-cols-2 gap-8">
+              {/* FTC Logo */}
+              <div className="aspect-square relative group">
+                <div className="absolute inset-0 bg-black/5 rounded-2xl 
+                  transform group-hover:scale-105 transition-all duration-300">
+                  <Image
+                    src="/logo/FTC 19666 Logo.svg"
+                    alt="FTC 19666 Forever Knight Logo"
+                    fill
+                    className="object-contain p-6"
+                    priority
+                  />
+                </div>
+              </div>
+              
+              {/* Depth Lab Logo */}
+              <div className="aspect-square relative group">
+                <div className="absolute inset-0 bg-black/5 rounded-2xl 
+                  transform group-hover:scale-105 transition-all duration-300">
+                  <Image
+                    src="/logo/Depth Lab Logo.svg"
+                    alt="Depth Lab Robotics Logo"
+                    fill
+                    className="object-contain p-6"
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
