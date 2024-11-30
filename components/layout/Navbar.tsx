@@ -7,14 +7,11 @@ import { cn } from '@/lib/utils'
 
 const navItems = [
   { label: 'Home', href: '/' },
-  { label: 'About Us', href: '/about' },
+  { label: 'About Us', href: '/about-us' },
   { label: 'Sponsors', href: '/sponsors' },
   { label: 'FTC', href: '/ftc' },
   { label: 'Depth Lab', href: '/depth-lab' },
-  { label: 'Calendar', href: '/calendar' },
   { label: 'Outreach', href: '/outreach' },
-  { label: 'Awards', href: '/awards' },
-  { label: 'Shop', href: '/shop' },
 ]
 
 export function Navbar() {
