@@ -1,28 +1,26 @@
 import { Hero } from '@/components/features/Hero'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
+import { getHeroImages } from '@/lib/getHeroImages'
 
-export default function Home() {
+export default async function Home() {
+  const images = await getHeroImages()
   return (
     <>
-      <Hero />
+      <Hero images={images} />
       
       <section className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h2 className="text-3xl font-bold mb-6">Our Programs</h2>
             <div className="space-y-6">
-              <div className="border-l-4 border-[#1B3159] pl-4">
-                <h3 className="text-xl font-semibold mb-2">FIRST Robotics Competition (FRC)</h3>
-                <p className="text-gray-600">High school students build and compete with sophisticated robots in high-energy regional competitions.</p>
-              </div>
               <div className="border-l-4 border-[#800020] pl-4">
                 <h3 className="text-xl font-semibold mb-2">FIRST Tech Challenge (FTC)</h3>
                 <p className="text-gray-600">Middle and high school students design, build, and program robots for head-to-head challenges.</p>
               </div>
               <div className="border-l-4 border-[#2B4F81] pl-4">
-                <h3 className="text-xl font-semibold mb-2">FIRST LEGO League (FLL)</h3>
-                <p className="text-gray-600">Elementary and middle school students solve real-world problems with LEGO-based robots.</p>
+                <h3 className="text-xl font-semibold mb-2">Depth Lab</h3>
+                <p className="text-gray-600">Advanced robotics research and development focusing on depth sensing and computer vision applications.</p>
               </div>
             </div>
           </div>

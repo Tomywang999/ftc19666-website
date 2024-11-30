@@ -1,26 +1,58 @@
-import Image from 'next/image'
+"use client"
 
-export function Hero() {
+import Image from 'next/image'
+import { useEffect, useState } from 'react'
+
+interface HeroProps {
+  images: string[]
+}
+
+export function Hero({ images }: HeroProps) {
+  const [currentImage, setCurrentImage] = useState<string>(images[0])
+
+  useEffect(() => {
+    // Initial random image
+    const randomIndex = Math.floor(Math.random() * images.length)
+    setCurrentImage(images[randomIndex])
+
+    // Set up interval to change image every 2 seconds
+    const interval = setInterval(() => {
+      setCurrentImage(prevImage => {
+        const currentIndex = images.indexOf(prevImage)
+        const nextIndex = (currentIndex + 1) % images.length
+        return images[nextIndex]
+      })
+    }, 2000)
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(interval)
+  }, [images])
+
   return (
-    <div className="relative h-[60vh] w-full mt-16">
+    <div className="relative h-screen w-full mt-16 overflow-hidden">
       <Image
-        src="https://picsum.photos/1920/1080"
-        alt="Robotics Team"
+        src={currentImage}
+        alt="Hero Image"
         fill
-        className="object-cover"
+        className="object-cover brightness-[0.65] scale-105 transform"
         priority
       />
-      <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-        <div className="text-center text-white max-w-4xl px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Inspiring Future Engineers
-          </h1>
-          <p className="text-lg md:text-xl mb-8">
-            Building robots, developing skills, and creating tomorrow's innovators through FIRST Robotics
-          </p>
-          <button className="bg-[#800020] hover:bg-[#600018] text-white px-8 py-3 rounded-full text-lg transition-colors">
-            Join Our Program
-          </button>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60" />
+      
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="text-center text-white max-w-[1400px] px-6">
+          <div className="space-y-4">
+            <h1 className="relative">
+              <span className="block text-3xl md:text-5xl lg:text-7xl font-black tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">
+                Empowering Youth<br />
+                Through Innovation<br />
+                Where Community is
+              </span>
+              <span className="block text-4xl md:text-6xl lg:text-8xl font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mt-2">
+                FIRST.
+              </span>
+            </h1>
+          </div>
         </div>
       </div>
     </div>
