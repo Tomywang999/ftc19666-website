@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils'
 const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about-us' },
+  { label: 'Team', href: '/team' },
   { label: 'Sponsors', href: '/sponsors' },
   { label: 'FTC', href: '/ftc' },
   { label: 'Depth Lab', href: '/depth-lab' },
