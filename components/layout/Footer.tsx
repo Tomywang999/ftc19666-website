@@ -9,7 +9,7 @@ export function Footer() {
         
         <div className="space-y-2">
           <p>Huangpu, Shanghai 153 Jumen Road (Qianyu Creative Park)</p>
-          <p>Email: info@eftc19666.org</p>
+          <p>Email: info@ftc19666.org</p>
         </div>
 
         {/* <div className="flex items-center justify-center gap-4 mt-4">
