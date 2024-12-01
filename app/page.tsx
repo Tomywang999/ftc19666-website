@@ -69,7 +69,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="bg-[#1B3159] text-white py-16">
+      {/* <section className="bg-[#1B3159] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="text-center md:text-left">
@@ -90,7 +90,7 @@ export default async function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

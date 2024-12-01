@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Search, Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { Search as SearchComponent } from '@/components/features/Search'
 
 const navItems = [
   { label: 'Home', href: '/' },
@@ -12,7 +13,7 @@ const navItems = [
   { label: 'Sponsors', href: '/sponsors' },
   { label: 'FTC', href: '/ftc' },
   { label: 'Depth Lab', href: '/depth-lab' },
-  { label: 'Outreach', href: '/outreach' },
+  // { label: 'Outreach', href: '/outreach' },
 ]
 
 export function Navbar() {
@@ -55,9 +56,7 @@ export function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <button className="ml-4 p-2 text-gray-200 hover:text-white hover:bg-white/10 rounded-md transition-colors">
-              <Search className="h-5 w-5" />
-            </button>
+            <SearchComponent />
           </div>
 
           <div className="md:hidden flex items-center">

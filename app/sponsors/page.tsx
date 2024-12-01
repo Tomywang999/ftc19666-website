@@ -169,12 +169,12 @@ export default function SponsorsPage() {
                       </li>
                     ))}
                   </ul>
-                  <button className="w-full bg-[#1B3159] text-white px-6 py-4 rounded-lg
+                  {/* <button className="w-full bg-[#1B3159] text-white px-6 py-4 rounded-lg
                                    inline-flex items-center justify-center gap-2 
                                    hover:bg-[#2B4F81] transition-colors
                                    font-semibold text-lg">
                     Become a Sponsor <ArrowRight className="h-5 w-5" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
@@ -183,7 +183,7 @@ export default function SponsorsPage() {
       </section>
 
       {/* Contact CTA - Updated styling */}
-      <section className="max-w-7xl mx-auto px-4 py-24 text-center">
+      {/* <section className="max-w-7xl mx-auto px-4 py-24 text-center">
         <h2 className="text-3xl font-bold mb-6">Interested in Supporting Our Team?</h2>
         <p className="text-gray-600 mb-10 max-w-2xl mx-auto text-lg">
           We welcome the opportunity to discuss how your organization can partner with Team 19666
@@ -194,7 +194,7 @@ export default function SponsorsPage() {
                          transition-colors text-lg font-semibold">
           Contact Us <ArrowRight className="h-6 w-6" />
         </button>
-      </section>
+      </section> */}
     </>
   )
 } 
