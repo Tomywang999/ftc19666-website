@@ -19,73 +19,142 @@ const teamCategories = [
     name: "Leadership",
     members: [
       {
-        name: "Alex Chen",
+        name: "Robin Sun",
         role: "Team Captain",
-        image: "/team/alex.jpg",
-        grade: "Grade 11",
-        specialties: ["Strategy", "Project Management"],
-        bio: "Leading the team since 2022, focused on building a collaborative team culture.",
-        social: {
-          email: "alex@example.com",
-          github: "https://github.com/alex",
-        } as TeamMemberSocial,
-      },
-      {
-        name: "Sarah Zhang",
-        role: "Engineering Lead",
-        image: "/team/sarah.jpg",
-        grade: "Grade 12",
-        specialties: ["Mechanical Design", "CAD"],
-        bio: "Passionate about innovative mechanical solutions and mentoring new team members.",
-        social: {
-          email: "sarah@example.com",
-          github: "https://github.com/sarah",
-        } as TeamMemberSocial,
-      },
-    ]
-  },
-  {
-    name: "Engineering",
-    members: [
-      {
-        name: "David Li",
-        role: "Software Developer",
-        image: "/team/david.jpg",
-        grade: "Grade 11",
-        specialties: ["Computer Vision", "Autonomous"],
-        bio: "Specializes in computer vision and autonomous navigation systems.",
-        social: {
-          github: "https://github.com/david",
-        } as TeamMemberSocial,
-      },
-      {
-        name: "Emily Wang",
-        role: "Mechanical Engineer",
-        image: "/team/emily.jpg",
+        image: "/team/robin.png",
         grade: "Grade 10",
-        specialties: ["3D Printing", "Prototyping"],
-        bio: "Focuses on rapid prototyping and mechanical optimization.",
+        specialties: ["Strategy", "Project Management", "Programming", "Computer Vision", "Autonomous", "Outreach"],
+        bio: "Robin is the current captain of Team 19666, specializing in programming. He is an accomplished pianist (Level 1) and has a keen interest in IT and technology. His hobbies include studying Tolkien's constructed languages and playing Paradox strategy games. He looks forward to growing and developing with FTC 19666.",
         social: {
-          email: "emily@example.com",
+          email: "robins@ftc19666.org",
+          //github: "https://github.com/alex",
+        } as TeamMemberSocial,
+      },
+      {
+        name: "Eason Zhu",
+        role: "Controller",
+        image: "/team/eason.png",
+        grade: "Grade 10",
+        specialties: ["Controller", "Strategy", "Project Management", "Scouting"],
+        bio: "Eason Zhu, 16 years old, serves as the team's operator and Project Manager. This season marks his 5th year in FTC, having started in 6th grade with the goal of learning beyond the classroom curriculum while making new friends. His passion for FTC grew over time, along with his pursuit of excellence. Last season, the team came incredibly close to advancing to the Houston World Championship. This year, he hopes to transform that near-miss into motivation, helping the team turn their previous challenges into this season's success story.",
+        social: {
+          email: "easonz@ftc19666.org",
+        //   github: "https://github.com/sarah",
         } as TeamMemberSocial,
       },
     ]
   },
   {
-    name: "Outreach",
+    name: "Team Members",
     members: [
-      {
-        name: "Michael Wu",
-        role: "Outreach Coordinator",
-        image: "/team/michael.jpg",
-        grade: "Grade 11",
-        specialties: ["Event Planning", "Community Relations"],
-        bio: "Coordinates community events and manages team social media presence.",
-        social: {
-          email: "michael@example.com",
-          linkedin: "https://linkedin.com/in/michael",
-        } as TeamMemberSocial,
-      },
+        {
+            name: "Eric Wen",
+            role: "Controller",
+            image: "/team/eric.png",
+            grade: "Grade 10",
+            specialties: ["Controller", "Outreach", "Engineering", "Scouting"],
+            bio: "Eric started participating in FTC five years ago and has accumulated extensive experience in the FTC learning environment. His passion for FTC has grown stronger over the years. This journey has witnessed his growth, honed his technical skills, and cultivated his deep interest in technological challenges. Eric has a wide range of hobbies, including engineering design, building, soccer, and swimming. His perseverance is reflected not only on the soccer field and in the swimming pool but also extends to every practical endeavor. As a devoted Liverpool fan, he incorporates the united spirit of 'You'll Never Walk Alone' into every moment of competition and training.",
+            social: {
+              email: "ericw@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Eason Wang",
+            role: "Programming",
+            image: "/team/easonw.png",
+            grade: "Grade 9",
+            specialties: ["Scouting", "Programming"],
+            bio: "Eason Wang is a 9th grade student who handles engineering responsibilities for the team. His interests include programming, LEGO, soccer, and basketball. He looks forward to gaining more interpersonal experience and improving his abilities through this competition. Eason is willing to take on responsibilities and ensure the team has convenient access to needed resources, demonstrating his commitment to contributing to the team's success.",
+            social: {
+              email: "easonw@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Elvis Wu",
+            role: "Engineering",
+            image: "/team/placeholder.jpeg",
+            grade: "Grade 11",
+            specialties: ["Engineering", "Outreach"],
+            bio: "Elvis Wu, 16 years old, serves as the team's engineering lead and manages the engineering documentation in the team's engineering notebook. He joined FTC to develop his capabilities and expertise in robotics engineering, learning through collaboration and growing through competition to achieve outstanding progress. His experience in robotics competitions enables him to effectively handle engineering matters and help guide the team to victory.",
+            social: {
+              email: "elvisw@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Tomy Wang",
+            role: "Programming",
+            image: "/team/placeholder.jpeg",
+            grade: "Grade 11",
+            specialties: ["Programming", "Autonomous", "Scouting", "Outreach", "Strategy", "Computer Vision"],
+            bio: "Tomy Wang is an 11th grade student who serves as one of the team's lead programmers. With extensive experience in computer vision, autonomous programming, and strategy development, he plays a crucial role in enhancing the team's technical capabilities. His passion for robotics and programming drives him to continuously explore innovative solutions and mentor younger team members. Beyond his technical contributions, Tomy actively participates in outreach events and scouting activities, helping to strengthen both the team's competitive edge and community presence. His analytical mindset and dedication to excellence make him an invaluable member of Forever Knight.",
+            social: {
+              email: "tomyw@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Lucas Lu",
+            role: "Programming",
+            image: "/team/lucas.png",
+            grade: "Grade 7",
+            specialties: ["Programming", "Scouting"],
+            bio: "Lucas Lu is a 7th grade student joining FTC for the first time this season. With prior experience in microcontrollers, programming, and VEX robotics, he brings valuable skills to the team. His strong foundation in mathematics and programming makes him well-suited for contributing to autonomous development and problem-solving. Lucas is eager to learn from his teammates and grow his robotics capabilities while supporting the team's engineering and programming efforts. As a new member, he approaches the competition with enthusiasm and dedication to team collaboration.",
+            social: {
+              email: "lucasl@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Zhiyu Luo",
+            role: "Scouting",
+            image: "/team/placeholder.jpeg",
+            grade: "Grade #",
+            specialties: ["Scouting"],
+            bio: "----",
+            social: {
+               email: "zhiyuluol@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Haoran Fan",
+            role: "Outreach",
+            image: "/team/placeholder.jpeg",
+            grade: "Grade #",
+            specialties: ["Outreach", "Engineering"],
+            bio: "----",
+            social: {
+               email: "haoranfanf@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Ziming Jiang",
+            role: "Engineering",
+            image: "/team/zimj.png",
+            grade: "Grade #",
+            specialties: ["Engineering", "Outreach", "Scouting"],
+            bio: "Ziming Jiang is currently running for the position of mechanical engineer and engineering notebook coordinator in Team 19666. He has a strong passion for FTC and programming, which provides him with a comfortable space amid academic pressures. While helping the team, he develops his logical thinking abilities, enabling him to better explore the world and seek knowledge. This has also helped him become more organized in both studies and life. He is committed to giving his best effort to FTC programming. Known for his eagerness to learn, diligence in research, and dedication to improvement, Ziming hopes to contribute significantly to the team's success in competitions.",
+            social: {
+            email: "zimingjiangj@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
+        {
+            name: "Jingwu Lu",
+            role: "Outreach",
+            image: "/team/jiwl.png",
+            grade: "Grade #",
+            specialties: ["Outreach", "Scouting"],
+            bio: "Jingwu Lu is a member of Team 19666 who has been learning LEGO building and programming since the age of 5, giving him a solid foundation. He has maintained a strong interest and passion for LEGO, having participated in the FLL Asia Championship and other robotics programming competitions. In the team, he serves as both a mechanical engineer and outreach member. With nearly 7 years of building experience, he is confident in leveraging his mechanical construction expertise to contribute to the team's continued progress. He looks forward to growing alongside his teammates and achieving greater honors together.",
+            social: {
+               email: "jingwul@ftc19666.org",
+            //   github: "https://github.com/sarah",
+            } as TeamMemberSocial,
+        },
     ]
   }
 ]
