@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import { PageHeader } from '@/app/_components/PageHeader'
 import Image from 'next/image'
-import { ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About Us | Forever Knight Robotics',
@@ -30,7 +29,7 @@ export default function AboutUsPage() {
               Gracious Professionalism.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since our first competition in 2019, we've grown tremendously over these 4 years. In the 2023-24 season, 
+              Since our first competition in 2019, we&apos;ve grown tremendously over these 4 years. In the 2023-24 season, 
               we secured second place at the Chongqing Qualifier, advancing to nationals. At CENTRAL STAGE, we achieved 
               our greatest milestone yet: becoming National Champions. Throughout this journey, our team has consistently 
               pushed boundaries and moved forward with unwavering determination.

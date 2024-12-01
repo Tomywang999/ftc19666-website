@@ -35,9 +35,9 @@ export default function DepthLabPage() {
                 Join Our Growing Community
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Depth Lab is more than just a platform - it's a thriving community of FTC teams 
+                Depth Lab is more than just a platform - it&apos;s a thriving community of FTC teams 
                 sharing knowledge, resources, and experiences. Together, we're pushing the 
-                boundaries of what's possible in robotics.
+                boundaries of what&apos;s possible in robotics.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="bg-[#1B3159] text-white px-6 py-3 rounded-full inline-flex items-center gap-2 hover:bg-[#2B4F81] transition-colors">
