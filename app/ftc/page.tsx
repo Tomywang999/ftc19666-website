@@ -113,7 +113,7 @@ export default function FTCPage() {
                       src={robot.image}
                       alt={`${robot.season} Robot - ${robot.name}`}
                       fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="object-cover transition-transform duration-300 group-hover:scale-110" unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
