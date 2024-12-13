@@ -114,7 +114,12 @@ export default function AboutUsPage() {
 • Motivation Award at Chongqing Yangtze Season Finale
 • Control Award at Shanghai Cao Road Cup Season Finale
 • Perseverance Award at Guangdong Heyuan Cup Season Finale`
-            }
+            },
+            {
+              year: '2024-25 Season',
+              title: 'TBD',
+              description: 'TBD'
+            },
           ].map((event, index) => (
             <div key={index} className="flex gap-6 items-start">
               <div className="bg-gradient-to-r from-[#4B6BFB] to-[#8C46FF] p-4 rounded-xl text-white font-bold whitespace-nowrap">
