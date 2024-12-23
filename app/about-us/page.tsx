@@ -98,27 +98,34 @@ export default function AboutUsPage() {
           {[
             {
               year: '2020-21 Season',
-              title: 'First Major Achievements',
-              description: 'Second Place Award at FIRST Tech Challenge Hangzhou Qualifier and National Championship Qualification. Participated in FIRST Tech Challenge Shanghai National Competition.'
+              title: 'Freight Frenzy',
+              description: `
+              • Motivate Award 2nd Place at CN Qualifier
+              • Judges\' Choice Award 2nd Place at CN Qualifier 2`
             },
             {
               year: '2021-22 Season',
-              title: 'Regional Recognition',
-              description: 'Received the Motivate Award at China Regional Qualifier'
+              title: 'Power Play',
+              description: `
+              • Control Award 2nd Place at The CaoLu Cup Teenage Robot Design and Build Invitational Tournament
+              • Motivate Award 3rd Place at Dianjian Peony Cup`
             },
             {
               year: '2022-23 Season',
-              title: 'Multiple Awards',
-              description: `• Think Award at China Regional Qualifier and National Championship Qualification
-• Innovate Award at China Regional Championship
-• Motivation Award at Chongqing Yangtze Season Finale
-• Control Award at Shanghai Cao Road Cup Season Finale
-• Perseverance Award at Guangdong Heyuan Cup Season Finale`
+              title: 'Centerstage',
+              description: `
+              • Inspire Award 3rd Place, Winning Alliance Captain at World Robot Contest Championships 2024 -Beijing FTC Program China Offseason Event
+              • Inspire Award Winner at China FTC Guangzhou Offseason Event
+              • Winning Alliance 1st Pick, Control Award 2nd Place at CN The CaoLu Cup Teenage Robot Design and Build Invitational Tournament
+              • Winning Alliance 1st Pick at China FTC Championship presented by Qiao Feng
+              • Finalist Alliance 1st Pick, Control Award 2nd Place Match Score at CN China FTC Chongqing Qualifier`
             },
             {
               year: '2024-25 Season',
-              title: 'TBD',
-              description: 'TBD'
+              title: 'Into The Deep',
+              description: `
+              • Inspire Award Winner at China FTC Chenzhou Qualifier
+              • Winning Alliance Captain at China FTC Hangzhou Qualifier`
             },
           ].map((event, index) => (
             <div key={index} className="flex gap-6 items-start">
