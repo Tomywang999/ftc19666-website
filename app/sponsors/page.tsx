@@ -14,6 +14,7 @@ const currentSponsors = [
     logos: [
       { src: '/sponsors/vanke-bilingual.png', alt: 'Vanke Bilingual School', width: 300, height: 120 },
       { src: '/sponsors/vanke-pudong.png', alt: 'Vanke School Pudong', width: 300, height: 120 },
+      { src: '/sponsors/garmin.jpg', alt: 'Garmin', width: 300, height: 120 },
     ]
   },
   {
