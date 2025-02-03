@@ -125,7 +125,8 @@ export default function AboutUsPage() {
               title: 'Into The Deep',
               description: `
               • Inspire Award Winner at China FTC Chenzhou Qualifier
-              • Winning Alliance Captain at China FTC Hangzhou Qualifier`
+              • Winning Alliance Captain at China FTC Hangzhou Qualifier
+              • Control Award Winner at China FTC Shanghai #2 Qualifier`
             },
           ].map((event, index) => (
             <div key={index} className="flex gap-6 items-start">
