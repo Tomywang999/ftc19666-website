@@ -100,7 +100,7 @@ const teamCategories = [
           role: "Engineering",
           image: "/team/placeholder.jpeg",
           grade: "Grade 9",
-          specialties: ["Scouting", "Scouting"],
+          specialties: ["Engineering", "Scouting"],
           bio: "----",
           social: {
             email: "heyuezhou@ftc19666.org",
