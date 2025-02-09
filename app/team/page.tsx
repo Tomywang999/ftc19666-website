@@ -96,6 +96,18 @@ const teamCategories = [
             } as TeamMemberSocial,
         },
         {
+          name: "Joey Zhou",
+          role: "Engineering",
+          image: "/team/placeholder.jpeg",
+          grade: "Grade 9",
+          specialties: ["Scouting", "Scouting"],
+          bio: "----",
+          social: {
+            email: "heyuezhou@ftc19666.org",
+          //   github: "https://github.com/sarah",
+          } as TeamMemberSocial,
+        },
+        {
             name: "Lucas Lu",
             role: "Programming",
             image: "/team/lucas.png",
