@@ -126,7 +126,8 @@ export default function AboutUsPage() {
               description: `
               • Inspire Award Winner at China FTC Chenzhou Qualifier
               • Winning Alliance Captain at China FTC Hangzhou Qualifier
-              • Control Award Winner at China FTC Shanghai #2 Qualifier`
+              • Control Award Winner at China FTC Shanghai #2 Qualifier
+              • Inspire Award Winner at China FTC Championship presented by Qiao Feng`
             },
           ].map((event, index) => (
             <div key={index} className="flex gap-6 items-start">
