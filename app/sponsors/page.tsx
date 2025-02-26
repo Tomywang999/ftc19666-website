@@ -12,8 +12,9 @@ const currentSponsors = [
   {
     tier: 'Diamond',
     logos: [
-      { src: '/sponsors/vanke-bilingual.png', alt: 'Vanke Bilingual School', width: 300, height: 120 },
-      { src: '/sponsors/vanke-pudong.png', alt: 'Vanke School Pudong', width: 300, height: 120 },
+      // { src: '/sponsors/vanke-bilingual.png', alt: 'Vanke Bilingual School', width: 300, height: 120 },
+      // { src: '/sponsors/vanke-pudong.png', alt: 'Vanke School Pudong', width: 300, height: 120 },
+      { src: '/sponsors/dtd.png', alt: 'DTD Technology', width: 180, height: 80 },
       { src: '/sponsors/garmin.jpg', alt: 'Garmin', width: 300, height: 120 },
       { src: '/sponsors/deepseek.jpg', alt: 'Deepseek', width: 300, height: 120 },
     ]
@@ -28,7 +29,7 @@ const currentSponsors = [
   {
     tier: 'Gold',
     logos: [
-      { src: '/sponsors/dtd.png', alt: 'DTD Technology', width: 180, height: 80 },
+      { src: '/sponsors/deyinkeji.png', alt: 'Deyin Technology', width: 180, height: 80 },
       { src: '/sponsors/jiayingdian.png', alt: 'Jia Ying Dian', width: 180, height: 80 },
     ]
   }
