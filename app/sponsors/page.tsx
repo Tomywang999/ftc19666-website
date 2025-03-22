@@ -14,23 +14,32 @@ const currentSponsors = [
     logos: [
       // { src: '/sponsors/vanke-bilingual.png', alt: 'Vanke Bilingual School', width: 300, height: 120 },
       // { src: '/sponsors/vanke-pudong.png', alt: 'Vanke School Pudong', width: 300, height: 120 },
-      { src: '/sponsors/dtd.png', alt: 'DTD Technology', width: 180, height: 80 },
+      { src: '/sponsors/ivymaker.png', alt: 'Ivymaker', width: 300, height: 120 },
+      { src: '/sponsors/dtd.png', alt: 'DTD Technology', width: 300, height: 120 },
       { src: '/sponsors/garmin.jpg', alt: 'Garmin', width: 300, height: 120 },
       { src: '/sponsors/deepseek.jpg', alt: 'Deepseek', width: 300, height: 120 },
+      { src: '/sponsors/netease.png', alt: 'Netease' , width: 300, height: 120 },
     ]
   },
   {
     tier: 'Platinum',
     logos: [
-      { src: '/sponsors/beats.png', alt: 'Beats by Apple', width: 200, height: 200 },
-      { src: '/sponsors/codeislands.png', alt: 'Codeislands', width: 200, height: 200 },
+      { src: '/sponsors/beats.png', alt: 'Beats by Apple', width: 300, height: 120 },
+      { src: '/sponsors/codeislands.png', alt: 'Codeislands', width: 300, height: 120 },
+      { src: '/sponsors/huafu.png', alt: 'Huafu', width: 300, height: 120 },
     ]
   },
   {
     tier: 'Gold',
     logos: [
-      { src: '/sponsors/deyinkeji.png', alt: 'Deyin Technology', width: 180, height: 80 },
-      { src: '/sponsors/jiayingdian.png', alt: 'Jia Ying Dian', width: 180, height: 80 },
+      { src: '/sponsors/deyinkeji.png', alt: 'Deyin Technology', width: 300, height: 120 },
+      { src: '/sponsors/jiayingdian.png', alt: 'Jia Ying Dian', width: 300, height: 120 },
+      { src: '/sponsors/zinzendorf.png', alt: 'Zinzendorf' , width: 300, height: 120 },
+      { src: '/sponsors/esternalasia.png', alt: 'Esternal Asia' , width: 300, height: 120 },
+      { src: '/sponsors/easmt.png', alt: 'Easmta' , width: 300, height: 120 },
+      { src: '/sponsors/9vu.png', alt: '9vu' , width: 300, height: 120 },
+      { src: '/sponsors/meta48.png', alt: 'Meta48' , width: 300, height: 120 },
+      { src: '/sponsors/haibbidhi.png', alt: 'Haibbidhi' , width: 300, height: 120 },
     ]
   }
 ]
@@ -38,7 +47,7 @@ const currentSponsors = [
 const sponsorshipTiers = [
   {
     name: 'Diamond',
-    amount: '50,000+',
+    amount: '25,000+',
     color: 'bg-gradient-to-r from-blue-400 to-purple-500',
     benefits: [
       'Prominent logo placement on robot',
@@ -51,7 +60,7 @@ const sponsorshipTiers = [
   },
   {
     name: 'Platinum',
-    amount: '25,000+',
+    amount: '15,000+',
     color: 'bg-gradient-to-r from-slate-300 to-slate-500',
     benefits: [
       'Large logo on robot',
@@ -71,25 +80,25 @@ const sponsorshipTiers = [
       'Social media mention',
       'Competition day recognition'
     ]
-  },
-  {
-    name: 'Silver',
-    amount: '5,000+',
-    color: 'bg-gradient-to-r from-gray-300 to-gray-400',
-    benefits: [
-      'Small logo on robot',
-      'Website recognition',
-      'Social media mention'
-    ]
-  },
-  {
-    name: 'Bronze',
-    amount: '1,000+',
-    color: 'bg-gradient-to-r from-amber-600 to-amber-800',
-    benefits: [
-      'Website recognition',
-      'Team thank you letter'
-    ]
+  // },
+  // {
+  //   name: 'Silver',
+  //   amount: '5,000+',
+  //   color: 'bg-gradient-to-r from-gray-300 to-gray-400',
+  //   benefits: [
+  //     'Small logo on robot',
+  //     'Website recognition',
+  //     'Social media mention'
+  //   ]
+  // },
+  // {
+  //   name: 'Bronze',
+  //   amount: '1,000+',
+  //   color: 'bg-gradient-to-r from-amber-600 to-amber-800',
+  //   benefits: [
+  //     'Website recognition',
+  //     'Team thank you letter'
+  //   ]
   }
 ]
 
