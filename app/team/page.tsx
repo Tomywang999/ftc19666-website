@@ -24,7 +24,7 @@ const teamCategories = [
         image: "/team/robin.png",
         grade: "Grade 10",
         specialties: ["Strategy", "Project Management", "Programming", "Computer Vision", "Autonomous", "Outreach"],
-        bio: "Robin is the current captain of Team 19666, specializing in programming. He is an accomplished pianist (Level 1) and has a keen interest in IT and technology. His hobbies include studying Tolkien's constructed languages and playing Paradox strategy games. He looks forward to growing and developing with FTC 19666.",
+        bio: "Robin Sun is a 10th grade student who serves as the team captain and lead programmer. He has been involved in FTC for 5 years, starting in 6th grade. His passion for robotics has grown over time, leading him to develop expertise in programming, computer vision, and autonomous systems. Robin is dedicated to guiding the team to success through strategic planning, project management, and technical innovation. His leadership and technical skills have been instrumental in the team's growth and achievements.",
         social: {
           email: "robins@ftc19666.org",
           //github: "https://github.com/alex",

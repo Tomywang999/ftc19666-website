@@ -19,12 +19,13 @@ const currentSponsors = [
       { src: '/sponsors/garmin.jpg', alt: 'Garmin', width: 300, height: 120 },
       { src: '/sponsors/deepseek.jpg', alt: 'Deepseek', width: 300, height: 120 },
       { src: '/sponsors/netease.png', alt: 'Netease' , width: 300, height: 120 },
+      { src: '/sponsors/haibbidhi.png', alt: 'Haibbidhi' , width: 300, height: 120 },
+      { src: '/sponsors/beats.png', alt: 'Beats by Apple', width: 300, height: 120 },
     ]
   },
   {
     tier: 'Platinum',
     logos: [
-      { src: '/sponsors/beats.png', alt: 'Beats by Apple', width: 300, height: 120 },
       { src: '/sponsors/codeislands.png', alt: 'Codeislands', width: 300, height: 120 },
       { src: '/sponsors/huafu.png', alt: 'Huafu', width: 300, height: 120 },
     ]
@@ -39,7 +40,6 @@ const currentSponsors = [
       { src: '/sponsors/easmt.png', alt: 'Easmta' , width: 300, height: 120 },
       { src: '/sponsors/9vu.png', alt: '9vu' , width: 300, height: 120 },
       { src: '/sponsors/meta48.png', alt: 'Meta48' , width: 300, height: 120 },
-      { src: '/sponsors/haibbidhi.png', alt: 'Haibbidhi' , width: 300, height: 120 },
     ]
   }
 ]
