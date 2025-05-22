@@ -10,6 +10,21 @@ export const metadata: Metadata = {
 
 const robots = [
   {
+    season: '2024-2025',
+    name: 'INTO THE DEEP',
+    image: '/robots/2025-robot.png',
+    achievements: [
+      'National Inspire Award Winner',
+      'Regional Championship Winner',
+      'Control Award Winner'
+    ],
+    features: [
+      'Automations Sample Grabing',
+      'Dynamic Scoring Mechanism',
+      'Real-time Data Analytics'
+    ]
+  },
+  {
     season: '2023-2024',
     name: 'CENTERSTAGE',
     image: '/robots/2024-robot.png',
