@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Instagram, Youtube, Github, DiscIcon } from 'lucide-react'
+import { Instagram, Github, DiscIcon, Twitter } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -12,40 +12,58 @@ export function Footer() {
           <p>Email: info@ftc19666.org</p>
         </div>
 
-        {/* <div className="flex items-center justify-center gap-4 mt-4">
+        <div className="flex items-center justify-center gap-4 mt-6">
           <Link 
-            href="https://instagram.com" 
-            className="hover:text-gray-300 transition-colors"
+            href="https://www.instagram.com/ftc19666/" 
+            className="hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Instagram"
           >
             <Instagram className="h-6 w-6" />
           </Link>
-          <span>|</span>
+          <span className="text-gray-500">|</span>
+          <Link 
+            href="https://x.com/ftc19666" 
+            className="hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on X (Twitter)"
+          >
+            <Twitter className="h-6 w-6" />
+          </Link>
+          {/* <span className="text-gray-500">|</span>
           <Link 
             href="https://youtube.com" 
-            className="hover:text-gray-300 transition-colors"
+            className="hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Subscribe to our YouTube channel"
           >
             <Youtube className="h-6 w-6" />
           </Link>
-          <span>|</span>
+          <span className="text-gray-500">|</span>
           <Link 
             href="https://discord.com" 
-            className="hover:text-gray-300 transition-colors"
+            className="hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Join our Discord server"
           >
             <DiscIcon className="h-6 w-6" />
           </Link>
-          <span>|</span>
+          <span className="text-gray-500">|</span>
           <Link 
             href="https://github.com" 
-            className="hover:text-gray-300 transition-colors"
+            className="hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View our GitHub repositories"
           >
             <Github className="h-6 w-6" />
-          </Link>
-        </div> */}
+          </Link> */}
+        </div>
       </div>
     </footer>
   )
-} 
+}
