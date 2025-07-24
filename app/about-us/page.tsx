@@ -128,7 +128,8 @@ export default function AboutUsPage() {
               • Winning Alliance Captain at China FTC Hangzhou Qualifier
               • Control Award Winner at China FTC Shanghai #2 Qualifier
               • Inspire Award Winner at China FTC Championship presented by Qiao Feng
-              • Inspire Award 2nd Place, Winning Alliance Captain at The CaoLu Cup Teenage Robot Design and Build Invitational Tournament`
+              • Inspire Award 2nd Place, Winning Alliance Captain at The CaoLu Cup Teenage Robot Design and Build Invitational Tournament
+              • Inspire Award Winner, Winning Alliance 1st Pick at 2025 World Robot Contest Championships 2025 - Sanya FTC program & China Off-Season Event`
             },
           ].map((event, index) => (
             <div key={index} className="flex gap-6 items-start">
