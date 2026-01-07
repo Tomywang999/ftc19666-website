@@ -2,7 +2,6 @@ import { Hero } from '@/components/features/Hero'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { getHeroImages } from '@/lib/getHeroImages'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 export default async function Home() {
   const images = await getHeroImages()
   return (
